@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/latar3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textColor="#92584D"
+        android:fontFamily="@font/BellishDemo"
+        android:text="Data Diri" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="250dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="219dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fotooooo"
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/textViewl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:fontFamily="@font/BellishDemo"
+        android:gravity="center"
+        android:text="Okti Setianing Choiriyah"
+        android:textColor="#A9694E"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textViewl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/Hugttight"
+        android:gravity="left"
+        android:text="T.T.L : Sleman, 09 Oktiber 2001"
+        android:textColor="#481F01"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/textViewl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/Hugttight"
+        android:gravity="left"
+        android:text="Agama : Islam"
+        android:textColor="#481F01"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/textViewl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/Hugttight"
+        android:gravity="left"
+        android:text="Alamat : Puluhdadi, CaturTinggal, Depok, Sleman"
+        android:textColor="#481F01"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/textViewl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/Hugttight"
+        android:gravity="left"
+        android:text="Status : Mahasiswa"
+        android:textColor="#481F01"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/textViewl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/Hugttight"
+        android:gravity="left"
+        android:text="Jurusan : D3-Manajemen Informatika"
+        android:textColor="#481F01"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/textViewl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/Hugttight"
+        android:gravity="left"
+        android:text="Kampus : Universitas Amikom Yogyakarta"
+        android:textColor="#481F01"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
